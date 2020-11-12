@@ -32,7 +32,9 @@ canvas {
 
 .wave-header-section{
     position: relative;
+    /* position: absolute; */
     width: 100%;
+    /* height: 13vh; */
     height: 13vh;
     background-image: linear-gradient(to right, #3586ff, #a1c7ff);
     overflow: hidden;
@@ -181,7 +183,7 @@ canvas {
     color: white;
 }
 
-.skill-title{
+.work-section-title{
     font-family:'Bungee', cursive !important;
 }
 
@@ -292,3 +294,39 @@ font-family: 'Rubik Mono One', sans-serif;
         transform: rotate(-10deg);
     }
 }
+
+
+/* contact */
+
+.contact-titles{
+    font-family:'Bungee', cursive;
+    color: #323c57;
+}
+
+#face{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+#homepage-image{
+    position: relative;
+    padding-bottom:10px; 
+    cursor:pointer;
+}
+.click-me{
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    transition: opacity 0.5s;
+    z-index: 100;
+    top: 0;
+    right: 0;
+}
+
+#homepage-image:hover #face{
+    opacity: 0.2;
+}
+
+#homepage-image:hover .click-me{
+    opacity: 1;
+}
+
