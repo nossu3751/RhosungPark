@@ -181,10 +181,14 @@ canvas {
 
 .work-skills{
     color: white;
+    position: relative;
+    width: 100%;
+    background-color: #3c5caf;
 }
 
 .work-section-title{
     font-family:'Bungee', cursive !important;
+    padding: 20px 0 30px 0;
 }
 
 /* 
@@ -330,3 +334,77 @@ font-family: 'Rubik Mono One', sans-serif;
     opacity: 1;
 }
 
+.work-detail{
+    margin: 5px 50px 5px 5px;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(252, 252, 252);
+    display: block;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+    padding-bottom: 40px;
+}
+
+.work-detail-title{
+    font-family: 'Bungee', 'cursive';
+    color: #323c57;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.work-detail-content{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.work-detail-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.app-button, .repo-button{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.work-skills-box{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color:#3c5caf;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+}
+
+.work-skills-box-header{
+    position:relative;
+    width: 100%; 
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(166, 207, 255);
+    font-family: 'Bungee', 'cursive';
+}
+
+.work-skills-box-image{
+    position:relative;
+    width: 100%; 
+    padding-top: 20px;
+    text-align: center;
+}
+
+.work-skills-box-content{
+    position:relative;
+    width: 100%; 
+    padding: 40px 50px 20px 50px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}

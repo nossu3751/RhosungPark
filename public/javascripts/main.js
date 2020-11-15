@@ -10,6 +10,12 @@ $(()=>{
     })
 });
 
+$(()=>{
+    $(".developing").click(()=>{
+        $("#developing-alert-modal").modal('toggle');
+    });
+});
+
 $(() => {
     $('#contact-form').on('submit', (event)=>{
         event.preventDefault();
