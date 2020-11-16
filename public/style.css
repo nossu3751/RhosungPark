@@ -328,7 +328,7 @@ font-family: 'Rubik Mono One', sans-serif;
     transition: opacity 0.5s;
     z-index: 100;
     top: 0;
-    right: 0;
+    left: 60%;
 }
 
 #homepage-image:hover #face{
