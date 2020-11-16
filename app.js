@@ -72,6 +72,6 @@ app.post('/', (req, res) => {
     });
 });
 
-app.listen(8888, () => {
+app.listen((process.env.PORT || 8888), () => {
     console.log("Rhosung Park's website is currently running on port 8888.")
 });
